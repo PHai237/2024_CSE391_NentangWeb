@@ -3,23 +3,30 @@ html{
 }
 
 .header b{
-    color: red;
-    border-left: red 5px solid;
+    color: rgb(153, 0, 51);
+    border-left: rgb(153, 0, 51) 5px solid;
     padding-left: 5px;
+    font-size: x-large;
 }
 
 .menu{
     margin: 10px;
+    padding: 10px;
 }
 
 .box1 img{
     width: 100%;
     height: 100%;
+    padding-bottom: 20px;
+}
+
+.fa-solid{
+    color: rgb(153, 0, 51);
 }
 
 .box123{
     display: flex;
-    width: 100%;
+    padding-bottom: 20px;
 }
 
 .box456{
