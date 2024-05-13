@@ -1,0 +1,40 @@
+html{
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+}
+
+.main-menu{
+    background-color: #F5F5F5;
+    height: 70px;
+    display: flex;
+}
+
+.manage{
+    /* background-color: red; */
+    width: 50%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.manage h1{
+    padding-left: 15px;
+}
+
+.manage ul{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage a, li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.search{
+    /* background-color: rebeccapurple; */
+    width: 50%;
+}
