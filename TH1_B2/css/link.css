@@ -3,8 +3,6 @@
     width: 1200px;
     display: flex;
     flex-direction: column;
-    left: 5%;
-    right: 7%;
     font-family: "Roboto", sans-serif;
     margin: 0 auto;
 }
@@ -188,19 +186,19 @@ h3{
 } */
 
 .gift{
-    content: url(/web/img/icons/gift.png);
+    content: url(/TH1_B2/img/icons/gift.png);
     margin: 0 6px 0 0;
     cursor: pointer;
 }
 
 .time{
-    content: url(/web/img/icons/time.png);
+    content: url(/TH1_B2/img/icons/time.png);
     margin: 0 6px 0 0;
     cursor: pointer;
 }
 
 .bookmark{
-    content: url(/web/img/icons/bookmark.png);
+    content: url(/TH1_B2/img/icons/bookmark.png);
     margin: 0 6px 0 0;
     cursor: pointer;
 }
