@@ -1,0 +1,21 @@
+html{
+    display: flex;
+    justify-content: space-between;
+}
+
+#list{
+    /* background-color: aqua; */
+    width: 50px;
+    height: 150px;
+}
+
+.button{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    margin-top: -100px;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
