@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Học web chuẩn</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+ $(function(){
+    $('#button').click(function() {
+        $('#box h3').text('New Title')
+        $('#box div').text('Changed into this');
+    });
+    $('#back').click(function() {
+        $('#box h3').text('Old Title')
+        $('#box div').text('Back to this one');
+    });
+ });
+</script>
+</head>
+<body>
+<div id="box">
+ <h3>Title</h3>
+ <div>In suscipit nec velit sit amet convallis. Integer</div>
+</div>
+<button id="button" type="button">Click</button>
+<button id="back" type="button">Back</button>
+</body>
+</html>
