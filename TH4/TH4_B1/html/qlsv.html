@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TH4/TH4_B1/css/link.css">
+    <link rel="stylesheet" href="/TH4/TH4_B1/css/table.css">
+    <title>Quản lý sinh viên</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Quản lý sinh viên</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div class="add">
+            <h2>Thêm sinh viên</h2>
+            <form id="qlsv">
+                <div class="info">
+                    <!-- Name -->
+                    <p>Họ và tên:</p>
+                    <input type="text" name="name" id="name"> <br> <br>
+
+                    <!-- ID -->
+                    <p>Mã sinh viên:</p>
+                    <input type="text" name="msv" id="msv">
+
+                    <!-- Birth -->
+                    <p>Ngày sinh:</p>
+                    <input type="date" name="date" id="date">
+
+                    <!-- Class -->
+                    <p>Lớp:</p>
+                    <input type="text" name="class" id="class">
+                </div>
+                <input class="submit" type="submit" value="Add">
+            </form>
+
+        </div>
+
+        <div class="table">
+                <table>
+                    <tr>
+                        <th>Họ và tên</th>
+                        <th>Mã sinh viên</th>
+                        <th>Ngày sinh</th>
+                        <th>Lớp</th>
+                    </tr>
+                </table>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="/TH4/TH4_B1/js/manage.js"></script>
+</body>
+</html>
